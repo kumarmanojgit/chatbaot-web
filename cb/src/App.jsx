@@ -4,7 +4,7 @@ import Bot from "./componet/Bot";
 function App() {
   return (
     <>
-      <div>
+      <div className="containert">
         <h1>CHat Ai</h1>
         <Bot />
       </div>

@@ -5,6 +5,51 @@
   text-align: center;
 }
 
+.containert {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  width: 600px;
+  text-align: center;
+  color: #333333;
+}
+
+.containert h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1a73e8;
+  text-transform: uppercase;
+}
+/* @media (max-width: 768px) {
+  #root {
+    padding: 1rem;
+  }
+
+  .containert {
+    padding: 30px;
+    width: 90%;
+  }
+
+  .containert h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #root {
+    padding: 0.5rem;
+  }
+
+  .containert {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .containert h1 {
+    font-size: 1.5rem;
+  }
+} */
 
 
 @keyframes logo-spin {

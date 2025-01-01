@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "./Bot.css";
 const Bot = () => {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
@@ -28,8 +29,8 @@ const Bot = () => {
         rows={20}
         cols={20}
       ></textarea>
-      <button onClick={generateAnswer}>generate</button>
-      <pre>{answer}</pre>
+      <button onClick={generateAnswer}>Generate</button>
+      <p>{answer}</p>
     </div>
   );
 };
